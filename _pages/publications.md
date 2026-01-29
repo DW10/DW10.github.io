@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: Publications by categories in reversed chronological order.
+description: Publications by categories in reversed chronological order. Click DOI button for link to paper. Click ABS button for abstract (where avaliable)
 nav: true
 nav_order: 2
 ---
