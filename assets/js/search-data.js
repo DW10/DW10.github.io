@@ -454,6 +454,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-mhra-report",
+          title: 'MHRA report',
+          description: "Rapid analysis of MR opioid perscribing",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/MR%20opioids%20-%20website/";
             },},{id: "projects-tonsillectomy",
           title: 'Tonsillectomy',
           description: "Analysis of variation of analgesic treatment within tonsillectomy surgery at UCLH",

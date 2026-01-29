@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://dw10.github.io/sitemap.xml
+Sitemap: https://dylanwhitaker.co.uk/sitemap.xml
