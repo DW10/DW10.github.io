@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Projects I have been/are a part of.
+description: Projects I have been/are a part of. LLM's tools may be used to help write and proof the project summaries.
 nav: true
 nav_order: 3
 display_categories: [current, completed, personal]
