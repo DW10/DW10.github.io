@@ -1,8 +1,5 @@
 "Preprint":
-  color: "#00369f"
-
-"PhysRev":
-  url: https://journals.aps.org/
+  color: "#FF0000"
 
 "Conference":
   color: "#009f36"
