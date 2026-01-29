@@ -4,7 +4,7 @@ title: projects
 permalink: /projects/
 description: Projects I have been/are a part of. LLM's tools may be used to help write and proof the project summaries.
 nav: true
-nav_order: 3
+nav_order: 4
 display_categories: [current, completed, personal]
 horizontal: false
 ---
