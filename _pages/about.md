@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Doctoral Student</p>
-    <p>[tech4health](https://www.tech4health.co.uk/cdt-researchers-cohort2/dylan-whitaker) CDT</p>
+    <p>tech4health CDT</p>
     <p>Univerity College London</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I work clinically as a Doctor(Junior Clinical Fellow) in the UCLH Department of Critical Care and a PhD Student within the [tech4health](https://www.tech4health.co.uk/cdt-researchers-cohort2/dylan-whitaker) CDT at UCL. Clinically my intrests in acute care and anaesthtics with plans to persue a training number in anaesthetics. 
+I work clinically as a Doctor (Junior Clinical Fellow) in the UCLH Department of Critical Care and a PhD Student within the [tech4health](https://www.tech4health.co.uk/cdt-researchers-cohort2/dylan-whitaker) CDT at UCL. Clinically my intrests in acute care and anaesthtics with plans to persue a training number in anaesthetics. 
 
 Academically, I work within the [UCL Health Algorithm Laboratory](https://uclhal.org) supervised by [Steve Harris](https://orcid.org/0000-0002-4982-1374) and [Matthew Wilson](https://orcid.org/0000-0002-5001-0253). My research interests revolve around how we can better understand and leverage the vast amount of health data produced daily into actionable evidence to help deliver better and safer care for patients. 
 
