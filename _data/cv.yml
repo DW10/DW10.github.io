@@ -57,13 +57,14 @@ cv:
 
       - company: Cambridge BioNexus
         position: Co-founder and Chief Operating Officer
+        location: Cambridge, UK
         start_date: 2020
         end_date: 2024
         summary: Start-up company using scientific methods to valuate BioTech opportunities
 
       - company: University College London Hospitals NHS Trust
         position: Junior Clinical Fellow
-        location: University College London Hospital
+        location: UCLH
         start_date: 2024
         end_date: Current
         summary: Critical Care
