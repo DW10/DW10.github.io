@@ -7,7 +7,7 @@ first_name: Dylan
 middle_name: 
 last_name: Whitaker
 contact_note: >
-  Best reached via emails: dylan.whitaker.25[at]ucl.ac.uk
+  Best reached via email: dylan.whitaker.25[at]ucl.ac.uk
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -15,7 +15,7 @@ footer_text: >
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: /assets/img/favicon.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://dylanwhitaker.co.uk # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
