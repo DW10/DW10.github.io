@@ -1,5 +1,8 @@
 "Preprint":
-  color: "#FF0000"
+  color: "#D10000"
 
 "Conference":
-  color: "#009f36"
+  color: "#E18AED"
+
+"Forthcoming"
+  color: "#F5DA27"
