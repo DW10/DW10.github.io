@@ -5,7 +5,7 @@ description: Rapid analysis of MR opioid perscribing
 img: https://www.e-lfh.org.uk/wp-content/uploads/2021/10/MHRA-logo_220x140.jpg
 importance: 8
 category: completed
-related_publications: true
+related_publications: false
 ---
 
 Check out the [accepted paper here](https://doi.org/10.2196/81355) 
