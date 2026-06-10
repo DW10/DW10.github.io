@@ -409,7 +409,12 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-mhra-report",
+          section: "News",},{id: "projects-impactfunctions",
+          title: 'IMPACTfunctions',
+          description: "The development and functionality of the IMPACTfunctions R package for peri-operative data extraction",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/IMPACTfunctions%20-%20website/";
+            },},{id: "projects-mhra-report",
           title: 'MHRA report',
           description: "Rapid analysis of MR opioid perscribing",
           section: "Projects",handler: () => {
