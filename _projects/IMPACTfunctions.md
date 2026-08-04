@@ -1,6 +1,6 @@
 ---
 layout: page
-title: IMPACTfunctions
+title: IMPACT functions
 description: The development and functionality of the IMPACTfunctions R package for peri-operative data extraction
 importance: 1
 category: current

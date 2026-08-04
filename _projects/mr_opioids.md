@@ -8,7 +8,7 @@ category: completed
 related_publications: false
 ---
 
-Check out the [accepted paper here](https://doi.org/10.2196/81355) 
+Check out the [published paper here](https://doi.org/10.2196/81355) 
 
 > This project was a real-world stress test for the OPALS peri-op dataset we’ve been building. When the MHRA withdrew the licence for modified-release morphine and oxycodone in post-surgical patients, we wanted to see how quickly we could generate the usage data. Moving from a policy alert to a full data-driven evaluation in under four weeks felt like a true realisation of the Learning Health System (LHS).
 

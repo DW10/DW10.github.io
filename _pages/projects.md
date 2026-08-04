@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Projects I have been/are a part of. LLM's tools may be used to help write and proof the project summaries.
+description: Drafts, interactive pages and other project sections can be found here.
 nav: true
 nav_order: 4
 display_categories: [current, completed, personal]
@@ -10,10 +10,9 @@ horizontal: false
 ---
 
 <!-- pages/projects.md -->
-<p>Drafts, interactive pages and other project sections can be found here.</p>
 
-<p>
-  <a class="btn btn-primary" href="https://projects.dylanwhitaker.co.uk" target="_blank" rel="noopener noreferrer">project hub</a>
+<p class="text-center">
+  <a class="btn btn-primary" href="https://projects.dylanwhitaker.co.uk" target="_blank" rel="noopener noreferrer">Enter project hub</a>
 </p>
 
 <div class="projects">
