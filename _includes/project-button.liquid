@@ -1,0 +1,4 @@
+{%- assign href_val = include.href | default: page.project_report_url | default: include.url | default: '/' -%}
+{%- assign text_val = include.text | default: 'Project report' -%}
+{%- assign target_val = include.target | default: '_self' -%}
+<a class="btn btn-primary project-report-btn" href="{{ href_val | relative_url }}" target="{{ target_val }}" rel="noopener noreferrer">{{ text_val }}</a>
