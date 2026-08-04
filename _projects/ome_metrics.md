@@ -9,6 +9,6 @@ related_publications: false
 #giscus_comments: true To add commenting, needs to be set up
 ---
 
-This page is a placeholder for an ongoing project. Please check back in the future for further details. 
-
-Draft avalible [here](https://projects.dylanwhitaker.co,uk) (Password protected). 
+>This page is a placeholder for an ongoing project. Please check back in the future for further details. 
+>
+> Draft avalible [here](https://projects.dylanwhitaker.co.uk) (Password protected). 
