@@ -424,6 +424,11 @@ ninja.data = [{
           description: "Analysis of variation of analgesic treatment within tonsillectomy surgery at UCLH",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Tonsillectomy-Website/";
+            },},{id: "projects-opioid-burden-metrics",
+          title: 'Opioid Burden metrics',
+          description: "A simulation study and litrature review to invetigate how opioid burden metrics like OME are used.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ome_metrics/";
             },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
