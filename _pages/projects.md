@@ -10,6 +10,12 @@ horizontal: false
 ---
 
 <!-- pages/projects.md -->
+<p>Drafts, interactive pages and other project sections can be found here.</p>
+
+<p>
+  <a class="btn btn-primary" href="https://projects.dylanwhitaker.co.uk" target="_blank" rel="noopener noreferrer">project hub</a>
+</p>
+
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
