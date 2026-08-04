@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "Projects I have been/are a part of. LLM&#39;s tools may be used to help write and proof the project summaries.",
+          description: "Drafts, interactive pages and other project sections can be found here.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -409,21 +409,16 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-impactfunctions",
-          title: 'IMPACTfunctions',
+          section: "News",},{id: "projects-impact-functions",
+          title: 'IMPACT functions',
           description: "The development and functionality of the IMPACTfunctions R package for peri-operative data extraction",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/IMPACTfunctions%20-%20website/";
+              window.location.href = "/projects/IMPACTfunctions/";
             },},{id: "projects-mhra-report",
           title: 'MHRA report',
           description: "Rapid analysis of MR opioid perscribing",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/MR%20opioids%20-%20website/";
-            },},{id: "projects-tonsillectomy",
-          title: 'Tonsillectomy',
-          description: "Analysis of variation of analgesic treatment within tonsillectomy surgery at UCLH",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/Tonsillectomy-Website/";
+              window.location.href = "/projects/mr_opioids/";
             },},{id: "projects-opioid-burden-metrics",
           title: 'Opioid Burden metrics',
           description: "A simulation study and litrature review to invetigate how opioid burden metrics like OME are used.",
@@ -434,6 +429,11 @@ ninja.data = [{
           description: "with background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/project_template/";
+            },},{id: "projects-tonsillectomy",
+          title: 'Tonsillectomy',
+          description: "Analysis of variation of analgesic treatment within tonsillectomy surgery at UCLH",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/tonsillectomy/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
