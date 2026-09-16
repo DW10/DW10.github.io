@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: Publications by categories in reversed chronological order. Click DOI button for link to paper. Click ABS button for abstract (where avaliable)
+description: Peer-reviewed papers, preprints and conference abstracts, most recent first.
 nav: true
 nav_order: 3
 ---
