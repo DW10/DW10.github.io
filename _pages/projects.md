@@ -15,7 +15,7 @@ horizontal: false
   <p>Paper drafts for peer review, full reports and interactive apps are hosted on the project hub.</p>
   <a class="btn btn-primary" href="https://projects.dylanwhitaker.co.uk" target="_blank" rel="noopener noreferrer">Visit the project hub</a>
 </div>
-<hr>
+
 
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}

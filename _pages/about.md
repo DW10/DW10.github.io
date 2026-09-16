@@ -2,7 +2,6 @@
 layout: about
 title: about
 permalink: /
-subtitle: Clinician-researcher using peri-operative data to make surgical pain care safer.
 
 profile:
   align: right
