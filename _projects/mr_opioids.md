@@ -1,14 +1,13 @@
 ---
 layout: page
 title: MHRA report
-description: Rapid analysis of MR opioid perscribing
-img: https://www.e-lfh.org.uk/wp-content/uploads/2021/10/MHRA-logo_220x140.jpg
+description: Rapid analysis of modified-release opioid prescribing after surgery
 importance: 8
 category: completed
 related_publications: false
 ---
 
-Check out the [published paper here](https://doi.org/10.2196/81355) 
+Read the [published paper](https://doi.org/10.2196/81355).
 
 > This project was a real-world stress test for the OPALS peri-op dataset we’ve been building. When the MHRA withdrew the licence for modified-release morphine and oxycodone in post-surgical patients, we wanted to see how quickly we could generate the usage data. Moving from a policy alert to a full data-driven evaluation in under four weeks felt like a true realisation of the Learning Health System (LHS).
 

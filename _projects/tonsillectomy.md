@@ -1,16 +1,12 @@
 ---
 layout: page
 title: Tonsillectomy
-description: Analysis of variation of analgesic treatment within tonsillectomy surgery at UCLH
+description: Analysis of variation in analgesic practice for tonsillectomy at UCLH
 importance: 1
 category: current
 related_publications: false
 ---
 
-
-> There was nothing special about the tonsillectomy cohort. The fact they were were unexacting was exactly the reason we picked them for the feasibility study. We carried some rather plain priors into this study, primarily that there was little variation in anaesthetic practice and that it was of little consequence. 
-> 
-> We were pretty close but the data infrastructure we built along the way was the really exciting bit.
 > There was nothing special about the tonsillectomy cohort. The fact they were unexacting was exactly the reason we picked them for the feasibility study. We carried some rather plain priors into this study, primarily that there was little variation in anaesthetic practice and that it was of little consequence.
 > 
 > We were pretty close, but the data infrastructure we built along the way was the really exciting bit.

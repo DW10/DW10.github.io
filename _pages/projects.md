@@ -2,18 +2,15 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Drafts, interactive pages and other project sections can be found here.
+description: Current and completed research projects.
 nav: true
 nav_order: 4
-display_categories: [current, completed, personal]
+display_categories: [current, completed]
 horizontal: false
 ---
 
 <!-- pages/projects.md -->
 
-<p class="text-center">
-  <a class="btn btn-primary" href="https://projects.dylanwhitaker.co.uk" target="_blank" rel="noopener noreferrer">Enter project hub</a>
-</p>
 
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
@@ -67,4 +64,10 @@ horizontal: false
   </div>
   {% endif %}
 {% endif %}
+</div>
+
+<hr>
+<div class="text-center mt-4 mb-4">
+  <p>Paper drafts for peer review, full reports and interactive apps are hosted on the project hub.</p>
+  <a class="btn btn-primary" href="https://projects.dylanwhitaker.co.uk" target="_blank" rel="noopener noreferrer">Visit the project hub</a>
 </div>

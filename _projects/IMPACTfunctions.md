@@ -7,13 +7,13 @@ category: current
 related_publications: false
 ---
 
-> Building the data pipeline for the IMPACT dataset required moving from multiple and isolated isolated, scripts across different pipelines to scalable, reusable infrastructure. `IMPACTfunctions` represents the summation of the learning and data cleaning efforts of the last 2 years. Whilst the first version is far from perfect or complete it feels like a big achievement on the data science learning journey 
+> Building the data pipeline for the IMPACT dataset required moving from multiple isolated scripts across different pipelines to scalable, reusable infrastructure. `IMPACTfunctions` represents the summation of the learning and data cleaning efforts of the last 2 years. Whilst the first version is far from perfect or complete it feels like a big achievement on the data science learning journey.
 >
-> Making an R package was my first goal when I first joined UCLH so to see a first draft now published (privately) feels likes a big accomplishment!
+> Making an R package was my first goal when I first joined UCLH so to see a first draft now published (privately) feels like a big accomplishment!
 
 # Aims and Background
 
-Our primary issue was data set access vs easy of use. Ready made *"flat"* dataset such as those from inbuilt EHR tools are rigid and often lack the depth or detail on data lineage. On the flip side, a caboodle login offered almost unfettered access to the warehouse of EPR data but navigating to what you actually want can take a year plus. 
+Our primary issue was data set access versus ease of use. Ready made *"flat"* dataset such as those from inbuilt EHR tools are rigid and often lack the depth or detail on data lineage. On the flip side, a caboodle login offered almost unfettered access to the warehouse of EPR data but navigating to what you actually want can take a year plus. 
 
 The IMPACT peri-operative dataset, developed at University College London Hospitals (UCLH) in tandem other trusts offered a middle ground. A highly granular and expansive dataset but clinically validated and collated. Despite this, it remained in a large multi-table database that required effort to extract the specific data needed.  
 
