@@ -2,7 +2,7 @@
 layout: page
 permalink: /talks/
 title: Talks
-description: Invited talks, conference presentations and seminars, with slides where available.
+description: Conference talks, presentations and seminars, with slides where available.
 nav: true
 nav_order: 1
 ---

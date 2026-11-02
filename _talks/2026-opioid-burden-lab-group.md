@@ -4,7 +4,8 @@ title: "The inherent bias in studies reporting outcomes using total opioid burde
 subtitle: a simulation study
 date: 2026-09-09
 type: Lab group presentation
-event: Lab group
+event: UCL Health Algorithm Laboratory (HAL) lab group
+location: UCL, London
 slides: /assets/pdf/talks/2026-opioid-burden-lab-group.pdf
 summary: >
   Total opioid burden (OME/MME) is a widely used outcome, appearing in over

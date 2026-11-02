@@ -5,6 +5,7 @@ subtitle: A case study of peri-operative modified-release opioids
 date: 2026-05-08
 type: Presentation
 event: tech4health CDT training week
+location: Belfast
 slides: /assets/pdf/talks/2026-mr-opioids-training-week.pdf
 paper: https://doi.org/10.2196/81355
 summary: >
