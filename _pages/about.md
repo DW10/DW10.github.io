@@ -17,7 +17,7 @@ hero:
 callout:
   label: Speaking this week
   text: "<em>Same patient, same evidence, different treatment</em> &mdash; tech4health CDT conference, London &middot; Wednesday 4 November 2026"
-  href: /talk/
+  href: /talks/2026-tech4health-conference/
   link_text: Talk details
 
 profile:

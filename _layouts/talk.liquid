@@ -1,0 +1,107 @@
+---
+layout: default
+---
+{% comment %}
+  Slides only show once the PDF exists in the repo, so a talk can be listed
+  before its slides are added without producing a broken link.
+{% endcomment %}
+{% assign slides_file = null %}
+{% if page.slides %}
+  {% assign slides_file = site.static_files | where: 'path', page.slides | first %}
+{% endif %}
+
+<div class="post">
+  <header class="post-header talk-header">
+    <p class="eyebrow">
+      {{ page.type -}}
+      {%- if page.event %} &middot; {{ page.event }}{% endif %}
+    </p>
+    <h1 class="post-title talk-title">
+      {{ page.title -}}
+      {%- if page.subtitle %}:{% endif %}
+    </h1>
+    {% if page.subtitle %}
+      <p class="talk-subtitle">{{ page.subtitle }}</p>
+    {% endif %}
+  </header>
+
+  <article>
+    <dl class="talk-meta">
+      <div>
+        <dt>Date</dt>
+        <dd>{{ page.date | date: '%A %-d %B %Y' }}</dd>
+      </div>
+      {% if page.event %}
+        <div>
+          <dt>Event</dt>
+          <dd>{{ page.event }}</dd>
+        </div>
+      {% endif %}
+      {% if page.location %}
+        <div>
+          <dt>Venue</dt>
+          <dd>{{ page.location }}</dd>
+        </div>
+      {% endif %}
+    </dl>
+
+    <div class="hero-actions talk-actions">
+      {% if slides_file %}
+        <a class="btn-lux btn-lux-solid" href="{{ page.slides | relative_url }}" target="_blank" rel="noopener">View slides (PDF)</a>
+      {% endif %}
+      {% if page.paper %}
+        <a class="btn-lux" href="{{ page.paper }}">Read the paper</a>
+      {% endif %}
+      <a class="btn-lux" href="{{ '/talks/' | relative_url }}">All talks</a>
+    </div>
+
+    {% if page.summary %}
+      <section class="home-section">
+        <h2 class="section-label">Summary</h2>
+        <div class="lead-prose">{{ page.summary | markdownify }}</div>
+      </section>
+    {% endif %}
+
+    {% if slides_file %}
+      <section class="home-section d-none d-md-block">
+        <h2 class="section-label">Slides</h2>
+        <object
+          class="slides-embed"
+          data="{{ page.slides | relative_url }}#view=FitH"
+          type="application/pdf"
+          aria-label="Slides for {{ page.title | escape }}"
+        >
+          <a href="{{ page.slides | relative_url }}">Download the slides (PDF)</a>
+        </object>
+      </section>
+    {% endif %}
+
+    {% if content != '' %}
+      <section class="home-section lead-prose">{{ content }}</section>
+    {% endif %}
+
+    {% if page.related %}
+      <section class="home-section">
+        <h2 class="section-label">Related work</h2>
+        <div class="related-grid">
+          {% for item in page.related %}
+            <a class="related-card" href="{{ item.href | relative_url }}">
+              <span class="related-title">{{ item.title }}</span>
+              <span class="related-text">{{ item.text }}</span>
+              <span class="callout-link">Read more &rarr;</span>
+            </a>
+          {% endfor %}
+        </div>
+      </section>
+    {% endif %}
+
+    <section class="home-section">
+      <h2 class="section-label">Get in touch</h2>
+      <p>
+        I would love to hear from you:
+        {{ site.contact_note | remove: 'Best reached via email: ' | strip | prepend: 'email me at ' }}, or browse my
+        <a href="{{ '/publications/' | relative_url }}">publications</a> and <a href="{{ '/assets/pdf/academic_cv.pdf' | relative_url }}">CV</a>.
+      </p>
+    </section>
+  </article>
+</div>

@@ -653,3 +653,113 @@ footer.fixed-bottom {
     color: var(--global-footer-text-color);
   }
 }
+
+/* Talks archive ------------------------------------------------------------ */
+
+.talk-header .eyebrow {
+  margin-bottom: 1rem;
+}
+
+.talk-header .talk-title {
+  font-size: clamp(2.1rem, 4.8vw, 3.4rem);
+  line-height: 1.12;
+  margin-bottom: 0.5rem;
+}
+
+.talk-subtitle {
+  font-family: $serif;
+  font-style: italic;
+  font-size: clamp(1.5rem, 3vw, 2.1rem);
+  line-height: 1.25;
+  color: var(--global-theme-color);
+  margin: 0;
+}
+
+.talk-actions {
+  margin-top: 0;
+}
+
+.slides-embed {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9.6;
+  border: 1px solid var(--global-divider-color);
+  background: var(--global-card-bg-color);
+}
+
+.talk-list .section-label {
+  margin-top: 3.5rem;
+}
+
+.talk-list .section-label:first-child {
+  margin-top: 1rem;
+}
+
+.talk-item {
+  display: grid;
+  grid-template-columns: 7.5rem minmax(0, 1fr) auto;
+  gap: 0.5rem 2rem;
+  align-items: baseline;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid var(--global-divider-color);
+  transition: transform 0.3s $ease;
+
+  &:hover {
+    text-decoration: none;
+    transform: translateX(4px);
+
+    .talk-item-title {
+      color: var(--global-theme-color);
+    }
+  }
+
+  span {
+    display: block;
+  }
+
+  .talk-item-date,
+  .talk-item-type {
+    font-size: 0.72rem;
+    font-weight: 500;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--global-text-color-light);
+  }
+
+  .talk-item-type {
+    color: var(--global-theme-color);
+    margin-bottom: 0.35rem;
+  }
+
+  .talk-item-title {
+    font-family: $serif;
+    font-size: 1.45rem;
+    line-height: 1.25;
+    color: var(--global-text-color);
+    transition: color 0.2s ease;
+
+    em {
+      color: inherit;
+    }
+  }
+
+  .talk-item-event {
+    margin-top: 0.35rem;
+    font-size: 0.92rem;
+    color: var(--global-text-color-light);
+  }
+
+  .callout-link {
+    color: var(--global-theme-color);
+  }
+}
+
+@media (max-width: 767.98px) {
+  .talk-item {
+    grid-template-columns: 1fr;
+
+    .callout-link {
+      display: none;
+    }
+  }
+}

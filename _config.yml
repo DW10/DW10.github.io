@@ -154,12 +154,18 @@ collections:
     output: true
   teachings:
     output: true
+  talks:
+    output: true
+    permalink: /talks/:name/
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
 # -----------------------------------------------------------------------------
 
 # Markdown and syntax highlight
+# Build items dated in the future, so upcoming talks get pages
+future: true
+
 markdown: kramdown
 highlighter: rouge
 kramdown:

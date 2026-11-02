@@ -1,0 +1,19 @@
+{% assign talk = include.talk %}
+<a class="talk-item" href="{{ talk.url | relative_url }}">
+  <span class="talk-item-date">{{ talk.date | date: '%-d %b %Y' }}</span>
+  <span class="talk-item-body">
+    <span class="talk-item-type">{{ talk.type }}</span>
+    <span class="talk-item-title">
+      {{- talk.title -}}
+      {% if talk.subtitle %}:{% endif %}
+      {% if talk.subtitle %}
+        <em>{{ talk.subtitle }}</em>
+      {%- endif %}
+    </span>
+    <span class="talk-item-event">
+      {{- talk.event -}}
+      {% if talk.location %} &middot; {{ talk.location }}{% endif %}
+    </span>
+  </span>
+  <span class="callout-link">View &rarr;</span>
+</a>
