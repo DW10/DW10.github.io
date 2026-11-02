@@ -1,10 +1,10 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
 description: Current and completed research projects.
 nav: true
-nav_order: 4
+nav_order: 2
 display_categories: [current, completed]
 horizontal: false
 ---
@@ -15,7 +15,6 @@ horizontal: false
   <p>Paper drafts for peer review, full reports and interactive apps are hosted on the project hub.</p>
   <a class="btn btn-primary" href="https://projects.dylanwhitaker.co.uk" target="_blank" rel="noopener noreferrer">Visit the project hub</a>
 </div>
-
 
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}

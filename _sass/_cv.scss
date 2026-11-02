@@ -8,11 +8,28 @@ div.container-link-button {
 
 table.table-cv {
   background-color: transparent !important;
+  // Fill the date column so badges and locations centre against the same width,
+  // rather than against whichever of the two happens to be wider.
+  width: 100%;
 
   td,
   th {
     padding: 1px;
+    text-align: center;
   }
+
+  p.location {
+    white-space: normal;
+    line-height: 1.3;
+    margin-top: 0.35rem;
+  }
+}
+
+// The date column's default gutter leaves too little room for wider badges
+// such as "2024 - Current", which then overflow and sit off-centre.
+div:has(> table.table-cv) {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 a.btncv {

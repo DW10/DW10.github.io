@@ -12,7 +12,7 @@ related_publications: false
 
 <div class="alert alert-secondary" role="note">
   <h2>Submission details</h2>
-  <p>This project has been submitted to the BJA and is currently under consideration:</p>
+  <p>This project has been submitted to the BJA and is currently under consideration.</p>
 </div>
 
 > I have been interested since medical school in how we can sum or compare the total
@@ -71,7 +71,6 @@ of work. My initial idea was a later-phase improvement to the methodological pro
 With encouragement from colleagues, I started at the beginning with the problem itself.
 The concept of building projects that complement and lead into each other will serve me
 well when planning my larger PhD.
-
 
 # Future Work
 

@@ -1,10 +1,10 @@
 cv:
   name: Dylan Whitaker
-#  label: Doctor, PhD Student
+  #  label: Doctor, PhD Student
   email: dylan.whitaker.25[at]ucl.ac.uk
   location: London, UK
   image: ""
-  summary: Clinical doctor working in Critical Care at UCLH and PhD Student at UCL
+  summary: "Clinical academic: Critical Care doctor at UCLH and PhD candidate at UCL"
 
   social_networks:
     - network: GitHub
@@ -12,13 +12,11 @@ cv:
 
   sections:
     Education:
-      - institution: University of Cambridge
-        location: Cambridge, UK
-        area: Biological Natural Sciences
-        studyType: Ba
-        start_date: 2016
-        end_date: 2019
-        score: "2:1"
+      - institution: University College London
+        location: London, UK
+        studyType: PhD
+        start_date: 2025
+        end_date: Current
 
       - institution: University of Cambridge
         location: Cambridge, UK
@@ -27,41 +25,15 @@ cv:
         start_date: 2016
         end_date: 2022
 
-      - institution: Univerity College London
-        location: London, UK
-        studyType: PhD
-        start_date: 2025
-        end_date: Current
+      - institution: University of Cambridge
+        location: Cambridge, UK
+        area: Biological Natural Sciences
+        studyType: BA
+        start_date: 2016
+        end_date: 2019
+        score: "2:1"
 
     Experience:
-      - company: North West Anglia NHS Trust
-        position: Foundation Year 1 Doctor
-        location: Hinchingbrooke Hospital
-        start_date: 2022
-        end_date: 2023
-        summary: General Surgery, ICU/Resp, Geriatrics
-
-      - company: Cambridge University Hospitals NHS Trust
-        position: Foundation Year 2 Doctor 
-        location: Addenbrooke’s Hospital
-        start_date: 2023
-        end_date: 2024
-        summary: Paediatrics, Trauma & Orthopaedics, Neurosurgery
-
-      - company: Cambridge University Hospitals NHS Trust
-        position: Health Care Assistant
-        location: Addenbrooke’s Hospital
-        start_date: 2020
-        end_date: 2021
-        summary: COVID surge ICU
-
-      - company: Cambridge BioNexus
-        position: Co-founder and Chief Operating Officer
-        location: Cambridge, UK
-        start_date: 2020
-        end_date: 2024
-        summary: Start-up company using scientific methods to valuate BioTech opportunities
-
       - company: University College London Hospitals NHS Trust
         position: Junior Clinical Fellow
         location: UCLH
@@ -70,6 +42,34 @@ cv:
         summary: Critical Care
         highlights:
           - Data Science Fellowship (3 month dedicated study time)
+
+      - company: Cambridge University Hospitals NHS Trust
+        position: Foundation Year 2 Doctor
+        location: Addenbrooke’s Hospital
+        start_date: 2023
+        end_date: 2024
+        summary: Paediatrics, Trauma & Orthopaedics, Neurosurgery
+
+      - company: North West Anglia NHS Trust
+        position: Foundation Year 1 Doctor
+        location: Hinchingbrooke Hospital
+        start_date: 2022
+        end_date: 2023
+        summary: General Surgery, ICU/Resp, Geriatrics
+
+      - company: Cambridge BioNexus
+        position: Co-founder and Chief Operating Officer
+        location: Cambridge, UK
+        start_date: 2020
+        end_date: 2024
+        summary: Start-up company using scientific methods to evaluate biotech opportunities
+
+      - company: Cambridge University Hospitals NHS Trust
+        position: Health Care Assistant
+        location: Addenbrooke’s Hospital
+        start_date: 2020
+        end_date: 2021
+        summary: COVID surge ICU
 
     Volunteer:
       - company: London Marathon
@@ -81,17 +81,17 @@ cv:
     Awards:
       - title: Provost's award for outstanding contribution to college community
         authors:
-          - "Provost, Kings College"
+          - "Provost, King's College"
         date: 2021
-        awarder: Provost, Kings College
-        summary: Awarded for volunteering to work in the COVID ICU whilst training for the Oxford Cambridge Univeirty Boat Race
+        awarder: Provost, King's College
+        summary: Awarded for volunteering to work in the COVID ICU whilst training for the Oxford and Cambridge University Boat Race
 
       - title: Outstanding Individual of the Month
         authors:
           - "North West Anglia NHS Foundation Trust"
         date: 2023
         awarder: North West Anglia NHS Foundation Trust
-        summary: Award for actions taken as a bystander at an out of hopsital cardiac arrest at a rowing event.
+        summary: Award for actions taken as a bystander at an out-of-hospital cardiac arrest at a rowing event.
 
     Skills:
       - name: Programming
@@ -102,5 +102,5 @@ cv:
       - name: Advanced Life Support (ALS)
         date: 2022
 
-      - name: ALS Instructor 
+      - name: ALS Instructor
         date: 2022

@@ -15,7 +15,7 @@ Read the [published paper](https://doi.org/10.2196/81355).
 
 In March 2025, the MHRA issued a public report regarding the risks of modified-release (MR) opioids in post-operative settings.
 
-Our goal was to repurpose the data pipeline during the OPALS project to rapidly quantify the prescribing prevalence of these medications. We focused on identifying "new" prescriptions—those not present in the patient's admission history—to specifically capture post-surgical initiation.
+Our goal was to repurpose the data pipeline built during the OPALS project to rapidly quantify the prescribing prevalence of these medications. We focused on identifying "new" prescriptions—those not present in the patient's admission history—to specifically capture post-surgical initiation.
 
 # Analysis
 
@@ -31,4 +31,4 @@ Stay tuned for the next steps to intervention!
 
 # Reflections
 
-This started out a mini-project that was intented to a be quick and easy paper (the academics oxymoron). Whilst it took almost a year in editorial (for what was supposed to be a letter) the final paper allowed us to pen alots of the soft issues we encountered. Important issues like the silo'ed working between teams and differint data lineage. As a first paper of the PhD this will lay some nice ground for the work to come!
+This started out as a mini-project that was intended to be a quick and easy paper (the academic's oxymoron). Whilst it spent almost a year in editorial review (for what was supposed to be a letter), the final paper allowed us to write up many of the softer issues we encountered, such as siloed working between teams and differing data lineage. As a first paper of the PhD this will lay some nice ground for the work to come!
