@@ -4,31 +4,38 @@ const ninja = document.querySelector('ninja-keys');
 // add the home and posts menu items
 ninja.data = [{
     id: "nav-about",
-    title: "about",
+    title: "About",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-cv",
-          title: "CV",
-          description: "A one-page PDF version is available to download.",
+  },{id: "nav-talks",
+          title: "Talks",
+          description: "Conference talks, presentations and seminars, with slides where available.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/cv/";
+            window.location.href = "/talks/";
+          },
+        },{id: "nav-projects",
+          title: "Projects",
+          description: "Current and completed research projects.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
           },
         },{id: "nav-publications",
-          title: "publications",
+          title: "Publications",
           description: "Peer-reviewed papers, preprints and conference abstracts, most recent first.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-projects",
-          title: "projects",
-          description: "Current and completed research projects.",
+        },{id: "nav-cv",
+          title: "CV",
+          description: "A one-page PDF version is available to download.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/projects/";
+            window.location.href = "/cv/";
           },
         },{id: "projects-impact-functions",
           title: 'IMPACT functions',
@@ -50,6 +57,21 @@ ninja.data = [{
           description: "Analysis of variation in analgesic practice for tonsillectomy at UCLH",
           section: "Projects",handler: () => {
               window.location.href = "/projects/tonsillectomy/";
+            },},{id: "talks-automated-data-pipelines-for-rapid-response-to-mhra-alerts",
+          title: 'Automated data pipelines for rapid response to MHRA alerts',
+          description: "",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/2026-mr-opioids-training-week/";
+            },},{id: "talks-the-inherent-bias-in-studies-reporting-outcomes-using-total-opioid-burden-metrics",
+          title: 'The inherent bias in studies reporting outcomes using total opioid burden metrics',
+          description: "",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/2026-opioid-burden-lab-group/";
+            },},{id: "talks-same-patient-same-evidence-different-treatment",
+          title: 'Same patient, same evidence, different treatment',
+          description: "",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/2026-tech4health-conference/";
             },},{
         id: 'social-cv',
         title: 'CV',
