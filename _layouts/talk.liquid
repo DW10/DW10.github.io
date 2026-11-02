@@ -55,6 +55,10 @@ layout: default
       <a class="btn-lux" href="{{ '/talks/' | relative_url }}">All talks</a>
     </div>
 
+    {% if page.slides_note and slides_file == null %}
+      <p class="talk-note">{{ page.slides_note }}</p>
+    {% endif %}
+
     {% if page.summary %}
       <section class="home-section">
         <h2 class="section-label">Summary</h2>

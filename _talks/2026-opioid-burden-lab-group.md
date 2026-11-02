@@ -7,6 +7,7 @@ type: Lab group presentation
 event: UCL Health Algorithm Laboratory (HAL) lab group
 location: UCL, London
 slides: /assets/pdf/talks/2026-opioid-burden-lab-group.pdf
+slides_note: Slides are pending journal submission and will be shared here once available.
 summary: >
   Total opioid burden (OME/MME) is a widely used outcome, appearing in over
   4,000 papers in five years, yet the conversion values behind it rest on a thin
