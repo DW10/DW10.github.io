@@ -14,11 +14,12 @@ hero:
     - text: CV
       href: /assets/pdf/academic_cv.pdf
 
-callout:
-  label: Speaking this week
-  text: "<em>Same patient, same evidence, different treatment</em> &mdash; tech4health CDT conference, London &middot; Wednesday 4 November 2026"
-  href: /talks/2026-tech4health-conference/
-  link_text: Talk details
+# Optional banner under the hero, e.g. for an upcoming talk. Uncomment to show it.
+# callout:
+#   label: Speaking this week
+#   text: "<em>Talk title</em> &mdash; Event, City &middot; Date"
+#   href: /talks/your-talk-page/
+#   link_text: Talk details
 
 profile:
   align: right
